@@ -11,8 +11,13 @@ export default{
 </script>
 
 <template>
+  <div class="container">
 
-  <AppNav></AppNav>
+    <AppNav></AppNav>
+
+
+  </div>
+
  
 </template>
 

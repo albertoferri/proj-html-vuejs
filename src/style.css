@@ -18,3 +18,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: black;
+}
+
+button{
+  background-color: #F2870C;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
