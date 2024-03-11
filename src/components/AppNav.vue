@@ -74,7 +74,8 @@ li{
     color: #0d78f3;
   }
 
-  .dropdown-menu{
+  .nav-item .nav-link.show{
+    position: absolute;
     inset: 19px auto auto 0px;
   }
   

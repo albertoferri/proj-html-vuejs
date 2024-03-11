@@ -24,8 +24,22 @@ body{
 }
 
 button{
-  background-color: #F2870C;
+  border: 2px solid #F2870C;
+  background-color: transparent;
+  padding: 6px 14px;
+  font-weight: 500;
 }
+
+button:hover{
+  background-color: #F2870C;
+  transition: .3s linear;
+}
+
+button:not(:hover){
+  transition: .3s linear;
+  background-color: transparent;
+}
+
 ul{
   padding: 0;
   margin: 0;
