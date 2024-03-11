@@ -31,7 +31,7 @@ export default{
 .row{
 
     #info{
-        margin: 200px 0;
+        margin: 200px 0 0 0;
     }
 
     h5{

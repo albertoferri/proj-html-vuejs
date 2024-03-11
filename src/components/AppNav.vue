@@ -43,7 +43,7 @@ export default{
         <li><a class="dropdown-item" href="#">merchandising</a></li>
       </ul>
     </li>
-    <li><img src="../../public/assets/image (23).svg" alt="search"></li>
+    <li><img src="../../public/assets/lens-bold.svg" alt="search"></li>
   </ul>
 
 </nav>
