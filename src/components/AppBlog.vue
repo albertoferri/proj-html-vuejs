@@ -6,7 +6,20 @@ export default{
 data(){
     return{
         store,
-        comp: store.blog
+        comp: store.blog,
+
+        image : [
+            "../../public/assets/instagram_img1.jpg",
+            "../../public/assets/instagram_img2.jpg",
+            "../../public/assets/instagram_img3.jpg",
+            "../../public/assets/instagram_img4.jpg",
+            "../../public/assets/instagram_img5.jpg",
+            "../../public/assets/instagram_img6.jpg",
+            "../../public/assets/instagram_img7.jpg",
+            "../../public/assets/instagram_img8.jpg",
+            "../../public/assets/instagram_img9.jpg",
+            "../../public/assets/instagram_img10.jpg"
+        ],
     }
 }
 
@@ -25,6 +38,14 @@ data(){
         <p>{{ item.descrizione }}</p>
     </div>
 
+</div>
+
+<div class="py-5">
+    <div class="row">
+      <div class="col px-0" v-for="(imgUrl, index) in image" :key="index">
+        <img class="img-fluid" :src="imgUrl" alt="Immagine">
+      </div>
+    </div>
 </div>
 
     
