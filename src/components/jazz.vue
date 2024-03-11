@@ -26,6 +26,7 @@ export default{
 
 <style scoped lang="scss">
 @use '../styles/variables' as *;
+@use '../styles/mixin.scss' as *;
 
 .row{
 

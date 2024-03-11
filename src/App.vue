@@ -1,6 +1,7 @@
 <script>
 import AppNav from './components/AppNav.vue';
 import AppJumbo from './components/AppJumbo.vue';
+import AppVideo from './components/AppVideo.vue';
 
 import {store} from './store.js';
 
@@ -15,6 +16,7 @@ export default{
   components:{
     AppNav,
     AppJumbo,
+    AppVideo,
   }
 
 }
@@ -27,6 +29,7 @@ export default{
 
   </div>
   <AppJumbo></AppJumbo>
+  <AppVideo></AppVideo>
     
 
 
