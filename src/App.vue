@@ -26,8 +26,8 @@ export default{
     <AppNav></AppNav>
 
   </div>
-    
   <AppJumbo></AppJumbo>
+    
 
 
 
