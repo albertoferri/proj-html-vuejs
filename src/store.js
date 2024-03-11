@@ -31,7 +31,7 @@ export const store = reactive({
                     "/public/assets/youtube.svg", 
                     "/public/assets/music.svg", 
                     "/public/assets/soundcloud.png", 
-                    "/public/assets/sa"
+                    "/public/assets/safari.png"
                 ]
         },
         {
@@ -43,7 +43,7 @@ export const store = reactive({
                     "/public/assets/youtube.svg", 
                     "/public/assets/music.svg", 
                     "/public/assets/soundcloud.png", 
-                    "/public/assets/sa"
+                    "/public/assets/safari.png"
                 ]
         },
         {
@@ -55,7 +55,7 @@ export const store = reactive({
                     "/public/assets/youtube.svg", 
                     "/public/assets/music.svg", 
                     "/public/assets/soundcloud.png", 
-                    "/public/assets/sa"
+                    "/public/assets/safari.png"
                 ]
         },
         {
@@ -67,7 +67,7 @@ export const store = reactive({
                     "/public/assets/youtube.svg", 
                     "/public/assets/music.svg", 
                     "/public/assets/soundcloud.png", 
-                    "/public/assets/sa"
+                    "/public/assets/safari.png"
                 ]
         },
         {
@@ -79,7 +79,7 @@ export const store = reactive({
                     "/public/assets/youtube.svg", 
                     "/public/assets/music.svg", 
                     "/public/assets/soundcloud.png", 
-                    "/public/assets/sa"
+                    "/public/assets/safari.png"
                 ]
         },
         {
@@ -91,7 +91,7 @@ export const store = reactive({
                     "/public/assets/youtube.svg", 
                     "/public/assets/music.svg", 
                     "/public/assets/soundcloud.png", 
-                    "/public/assets/sa"
+                    "/public/assets/safari.png"
                 ]
         }
     ],  
