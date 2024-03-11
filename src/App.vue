@@ -4,6 +4,7 @@ import AppJumbo from './components/AppJumbo.vue';
 import AppVideo from './components/AppVideo.vue';
 import AppGrid from './components/AppGrid.vue';
 import AppHero from './components/AppHero.vue';
+import AppScore from './components/AppScore.vue';
 
 import {store} from './store.js';
 
@@ -20,7 +21,8 @@ export default{
     AppJumbo,
     AppVideo,
     AppGrid,
-    AppHero
+    AppHero,
+    AppScore,
   }
 
 }
@@ -37,6 +39,7 @@ export default{
   <AppVideo></AppVideo>
   <AppGrid></AppGrid>
   <AppHero></AppHero>
+  <AppScore></AppScore>
     
 
 
