@@ -1,5 +1,6 @@
 <script>
 import Types from './Types.vue';
+import jazz from './jazz.vue';
 
 import {store} from '../store.js';
 
@@ -11,6 +12,7 @@ export default{
     },
     components:{
         Types,
+        jazz,
     }
 
   
@@ -20,7 +22,7 @@ export default{
 
 <template>
 
-<div class="container-fluid position-absolute ">
+<div class="container-fluid">
     
     <div class="title-box d-flex flex-column gap-3 text-uppercase align-items-center">
         <h5>instrumental rock</h5>
@@ -30,20 +32,13 @@ export default{
 
 </div>
 
-    <div>
+<div class="types-container">
+    <Types></Types>
+</div>
 
-        <Types></Types>
+<jazz></jazz>
 
-    </div>
-
-    <div class="container">
-        <div class="row flex-column text-white text-uppercase">
-            <div class="col text-center fs-3">Who we are</div>
-            <div class="col text-center fs-3">sense the jazz</div>
-            <div class="col text-center fs-3">The Story Of Jazz And Blues Society Is The Story Of Determinationr Passion, Idealism, Community, And Of Course, Music. Founded In 1985 And Incorporated In 1986, As A Community Based, Not-For-Profit, Charitable Arts Organization Located In Vancouver, British Columbia, The Society, From The Very Beginning, Has Worked Diligently To Establish Vancouver As A Centre For The Creation And Exchange Of Sounds And Ideas Between The Local, National And International Music Communities.</div>
-            <div class="col text-center fs-3"><button>read more</button></div>
-        </div>
-    </div>
+    
 
 
   
@@ -63,7 +58,7 @@ export default{
 
     .title-box{
         position: relative;
-        top: 100px;
+        top: 200px;
     
         h5{
             color: $thatOrange,
@@ -74,6 +69,13 @@ export default{
             color: white;
         }
     }
+}
+
+.types-container {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 

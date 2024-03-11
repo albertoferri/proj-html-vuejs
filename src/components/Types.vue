@@ -18,10 +18,10 @@ export default{
 
 <template>
 
-    <ul class="row justify-content-center">
-        <li id="item" class="col-4 bg-black px-2 py-5 d-flex flex-column justify-content-between align-items-center " v-for="(item, index) in comp" :key="index">
+    <ul class="row justify-content-center gap-4">
+        <li id="item" class="col-4 bg-dark px-2 py-5 d-flex flex-column justify-content-between align-items-center " v-for="(item, index) in comp" :key="index">
             <img class="img-fluid" :src="item.src" alt="Image">
-            <div id="info">
+            <div id="info" class="text-light">
                 <h4>{{ item.titolo }}</h4>
                 <p>{{ item.text }}</p>
             </div>
@@ -38,10 +38,6 @@ export default{
     width: 1500px;
 
     margin: 0 auto;
-
-    position: relative;
-    top: 600px;
-    gap: 40px;
 
 
     #item{
