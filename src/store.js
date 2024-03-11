@@ -116,4 +116,36 @@ export const store = reactive({
             descrizione: "Signs Your Car Battery Has To Be Replaced When The Dashboard Lights Start Flashing, This Is A Sign The Battery Is Dying. Several Issues Arise And"
         }
     ],
+
+    // footer
+
+    bookings : [
+        { text: "502 New Design Str, Melbourne, San Francisco, CA 94110, United States Of America Australia" },
+        { text: "T: 1 123-456-789" },
+        { text: "Email: demo@example.com" },
+        { social: 
+            [
+                "/public/assets/instagram.svg",
+                "/public/assets/facebook.svg", 
+                "/public/assets/twitter.svg", 
+                "/public/assets/youtube.svg"
+            ]
+        }
+    ],
+
+    informations : [
+        { text: "product Support" },
+        { text: "Checkout" },
+        { text: "Report Abuse" },
+        { text: "Redeem Voucher" },
+        { text: "Order Status" }
+    ],
+
+    support : [
+        { text: "Policies & Rules" },
+        { text: "Privacy policy" },
+        { text: "License policy" },
+        { text: "My Account" },
+        { text: "Locality" }
+    ],
 });

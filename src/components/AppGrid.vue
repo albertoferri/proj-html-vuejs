@@ -7,6 +7,8 @@ export default{
     data(){
         return{
             store,
+
+            // importati da store.js
             comp: store.song
         }
     }
@@ -43,19 +45,19 @@ export default{
 <style scoped lang="scss">
 @use '../styles/variables' as *;
 
+.row{
 
-.col-12{
-
-    h5{
-        color: $thatOrange;
+    .col-12{
+    
+        h5{
+            color: $thatOrange;
+        }
     }
+    
+    .social-icon{
+        width: 22px;
+    }
+
 }
-
-.social-icon{
-    width: 22px;
-}
-
-
-
 
 </style>

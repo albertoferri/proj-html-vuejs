@@ -6,6 +6,7 @@ import AppGrid from './components/AppGrid.vue';
 import AppHero from './components/AppHero.vue';
 import AppScore from './components/AppScore.vue';
 import AppBlog from './components/AppBlog.vue';
+import AppFooter from './components/AppFooter.vue';
 
 import {store} from './store.js';
 
@@ -25,6 +26,7 @@ export default{
     AppHero,
     AppScore,
     AppBlog,
+    AppFooter,
   }
 
 }
@@ -43,6 +45,7 @@ export default{
   <AppHero></AppHero>
   <AppScore></AppScore>
   <AppBlog></AppBlog>
+  <AppFooter></AppFooter>
     
 
 
