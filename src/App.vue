@@ -3,6 +3,7 @@ import AppNav from './components/AppNav.vue';
 import AppJumbo from './components/AppJumbo.vue';
 import AppVideo from './components/AppVideo.vue';
 import AppGrid from './components/AppGrid.vue';
+import AppHero from './components/AppHero.vue';
 
 import {store} from './store.js';
 
@@ -18,7 +19,8 @@ export default{
     AppNav,
     AppJumbo,
     AppVideo,
-    AppGrid
+    AppGrid,
+    AppHero
   }
 
 }
@@ -30,10 +32,11 @@ export default{
     <AppNav></AppNav>
 
   </div>
-  
+
   <AppJumbo></AppJumbo>
   <AppVideo></AppVideo>
   <AppGrid></AppGrid>
+  <AppHero></AppHero>
     
 
 
