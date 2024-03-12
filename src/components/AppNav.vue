@@ -43,7 +43,7 @@ export default{
         <li><a class="dropdown-item" href="#">merchandising</a></li>
       </ul>
     </li>
-    <li><img src="../../public/assets/lens-bold.svg" alt="search"></li>
+    <li><i class="fa-solid fa-magnifying-glass"></i></li>
   </ul>
 
 </nav>
@@ -51,7 +51,7 @@ export default{
   
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 @use '../styles/variables' as *;
 
 li img{

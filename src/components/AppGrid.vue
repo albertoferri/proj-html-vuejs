@@ -31,7 +31,7 @@ export default{
             <div class="card-body d-flex flex-column justify-content-between align-items-center">
                 <h4 class="card-title text-uppercase">{{ item.titolo }}</h4>
                 <div class="d-flex gap-2"> Stream on: 
-                    <img v-for="(imgPath, imgIndex) in item.social" :key="imgIndex" :src="imgPath" class="social-icon" alt="Social Icon">
+                    <div v-for="(icon, iconIndex) in item.social" :key="iconIndex" v-html="icon" class="social-icon"></div>
                 </div>
             </div>
         </div>
@@ -56,6 +56,13 @@ export default{
     
     .social-icon{
         width: 22px;
+
+        &:hover{
+            color: $thatOrange;
+            cursor: pointer;
+        }
+
+        
     }
 
 }

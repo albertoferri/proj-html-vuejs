@@ -46,3 +46,11 @@ ul{
   margin: 0;
   list-style-type: none;
 }
+
+li{
+  font-weight: 500;
+}
+
+.hover:hover{
+  color: #F2870C;
+}

@@ -27,11 +27,11 @@ export const store = reactive({
             titolo: "a roll and bang the floor",
             social: 
                 [
-                    "/public/assets/spotify.jpg",
-                    "/public/assets/youtube.svg", 
-                    "/public/assets/music.svg", 
-                    "/public/assets/soundcloud.png", 
-                    "/public/assets/safari.png"
+                    '<i class="fa-brands fa-spotify"></i>',
+                    '<i class="fa-brands fa-youtube"></i>', 
+                    '<i class="fa-solid fa-music"></i>', 
+                    '<i class="fa-brands fa-soundcloud"></i>', 
+                    '<i class="fa-brands fa-safari"></i>'
                 ]
         },
         {
@@ -39,11 +39,11 @@ export const store = reactive({
             titolo: "your melody to our music",
             social: 
                 [
-                    "/public/assets/spotify.jpg",
-                    "/public/assets/youtube.svg", 
-                    "/public/assets/music.svg", 
-                    "/public/assets/soundcloud.png", 
-                    "/public/assets/safari.png"
+                    '<i class="fa-brands fa-spotify"></i>',
+                    '<i class="fa-brands fa-youtube"></i>', 
+                    '<i class="fa-solid fa-music"></i>', 
+                    '<i class="fa-brands fa-soundcloud"></i>', 
+                    '<i class="fa-brands fa-safari"></i>'
                 ]
         },
         {
@@ -51,11 +51,11 @@ export const store = reactive({
             titolo: "touching heaven on frequency",
             social: 
                 [
-                    "/public/assets/spotify.jpg",
-                    "/public/assets/youtube.svg", 
-                    "/public/assets/music.svg", 
-                    "/public/assets/soundcloud.png", 
-                    "/public/assets/safari.png"
+                    '<i class="fa-brands fa-spotify"></i>',
+                    '<i class="fa-brands fa-youtube"></i>', 
+                    '<i class="fa-solid fa-music"></i>', 
+                    '<i class="fa-brands fa-soundcloud"></i>', 
+                    '<i class="fa-brands fa-safari"></i>'
                 ]
         },
         {
@@ -63,11 +63,11 @@ export const store = reactive({
             titolo: "music makes stronge beats",
             social: 
                 [
-                    "/public/assets/spotify.jpg",
-                    "/public/assets/youtube.svg", 
-                    "/public/assets/music.svg", 
-                    "/public/assets/soundcloud.png", 
-                    "/public/assets/safari.png"
+                    '<i class="fa-brands fa-spotify"></i>',
+                    '<i class="fa-brands fa-youtube"></i>', 
+                    '<i class="fa-solid fa-music"></i>', 
+                    '<i class="fa-brands fa-soundcloud"></i>', 
+                    '<i class="fa-brands fa-safari"></i>'
                 ]
         },
         {
@@ -75,11 +75,11 @@ export const store = reactive({
             titolo: "sound is the spark of time",
             social: 
                 [
-                    "/public/assets/spotify.jpg",
-                    "/public/assets/youtube.svg", 
-                    "/public/assets/music.svg", 
-                    "/public/assets/soundcloud.png", 
-                    "/public/assets/safari.png"
+                    '<i class="fa-brands fa-spotify"></i>',
+                    '<i class="fa-brands fa-youtube"></i>', 
+                    '<i class="fa-solid fa-music"></i>', 
+                    '<i class="fa-brands fa-soundcloud"></i>', 
+                    '<i class="fa-brands fa-safari"></i>'
                 ]
         },
         {
@@ -87,11 +87,11 @@ export const store = reactive({
             titolo: "make your night groovy",
             social: 
                 [
-                    "/public/assets/spotify.jpg",
-                    "/public/assets/youtube.svg", 
-                    "/public/assets/music.svg", 
-                    "/public/assets/soundcloud.png", 
-                    "/public/assets/safari.png"
+                    '<i class="fa-brands fa-spotify"></i>',
+                    '<i class="fa-brands fa-youtube"></i>', 
+                    '<i class="fa-solid fa-music"></i>', 
+                    '<i class="fa-brands fa-soundcloud"></i>', 
+                    '<i class="fa-solid fa-compass"></i>'
                 ]
         }
     ],
@@ -125,10 +125,10 @@ export const store = reactive({
         { text: "Email: demo@example.com" },
         { social: 
             [
-                "/public/assets/instagram.svg",
-                "/public/assets/facebook.svg", 
-                "/public/assets/twitter.svg", 
-                "/public/assets/youtube.svg"
+                '<i class="fa-brands fa-instagram"></i>',
+                '<i class="fa-brands fa-facebook"></i>', 
+                '<i class="fa-brands fa-twitter"></i>', 
+                '<i class="fa-brands fa-youtube"></i>'
             ]
         }
     ],

@@ -27,7 +27,7 @@ export default{
     <div class="title-box d-flex flex-column gap-3 text-uppercase align-items-center">
         <h5>instrumental rock</h5>
         <h1 class="display-1">Music in this Video</h1>
-        <button>MORE</button>
+        <button>READ MORE</button>
     </div>
 
 </div>

@@ -26,25 +26,27 @@ data(){
     <div class="row row-cols-4  py-5">
     
       <!-- booking info -->
-      <ul class="col"> <h4 class="fw-bold text-light">BOOKINGS</h4>
-        <li v-for="(item, index) in comp_one" :key="'one' + index">
-          <p v-if="item.text">{{ item.text }}</p>
+      <ul class="col"> 
+        <h4 class="fw-bold text-light">BOOKINGS</h4>
+        <li v-for="(item, index) in comp_one" :key="'one' + index"  class="text-capitalize">
+          <p class="hover" v-if="item.text">{{ item.text }}</p>
           <div v-else class="d-flex gap-3">
-            <img v-for="(icon, iconIndex) in item.social" :key="'icon' + iconIndex" :src="icon" class="social-icon" alt="Social Icon">
+              <div v-for="(icon, iconIndex) in item.social" :key="'icon' + iconIndex" v-html="icon" class="social-icon"></div>
           </div>
         </li>
       </ul>
+
     
       <!-- information -->
       <ul class="col"> <h4 class="fw-bold text-light">INFORMATION</h4>
-        <li v-for="(item, index) in comp_two" :key="'two' + index">
+        <li v-for="(item, index) in comp_two" :key="'two' + index" class="text-capitalize hover">
           {{ item.text }}
         </li>
       </ul>
     
       <!-- support info -->
       <ul class="col"> <h4 class="fw-bold text-light">SUPPORT</h4>
-        <li v-for="(item, index) in comp_three" :key="'three' + index">
+        <li v-for="(item, index) in comp_three" :key="'three' + index" class="text-capitalize hover">
           {{ item.text }}
         </li>
       </ul>
@@ -58,12 +60,17 @@ data(){
       </form>
     
     </div>
+
     <hr class="text-light">
+    
     <div class="row justify-content-center">
+
         <div class="col-6">
             <p class="text-center text-light"><i class="fa-regular fa-copyright"></i> 2024 All Rights Reserved, Developed By Alberto Ferri</p>
         </div>
+
     </div>
+
 </footer>
 
   
@@ -73,9 +80,19 @@ data(){
 @use '../styles/mixin.scss' as *;
 
 .row{
-    span, li{
-        cursor: pointer;
+
+  span, li,h4{
+      cursor: pointer;
+  }
+
+  .social-icon{
+    color: inherit;
+
+    &:hover{
+      color: $thatOrange;
     }
+  }
+
 }
 
 
