@@ -8,13 +8,24 @@ export default{
     data(){
         return{
             store,
+            isPlaying: false,
+            volume: 0.1
         }
     },
     components:{
         Types,
         jazz,
-    }
-
+    },
+    methods: {
+        toggleAudio() {
+            if (this.isPlaying) {
+                this.$refs.myAudio.pause();
+            } else {
+                this.$refs.myAudio.play();
+            }
+            this.isPlaying = !this.isPlaying;
+        },
+    },
   
 }
 
@@ -22,12 +33,22 @@ export default{
 
 <template>
 
-<div class="container-fluid">
-    
+<div class="container-fluid" >
+
+    <div id="audio-box" class="d-flex align-items-center justify-content-start flex-row-reverse gap-3">
+
+        <i @click="toggleAudio" :class="isPlaying ? 'fa-solid fa-pause' : 'fa-solid fa-play'" class="p-1 fs-4"></i>
+        <input type="range" v-model="volume" min="0.0" max="1.0" step="0.1">
+        <audio ref="myAudio" src="/public/assets/sigla.mp4" :volume="volume"></audio>
+        
+    </div>
+
     <div class="title-box d-flex flex-column gap-3 text-uppercase align-items-center">
+        
         <h5>instrumental rock</h5>
         <h1 class="display-1">Music in this Video</h1>
         <button>READ MORE</button>
+
     </div>
 
 </div>
@@ -53,6 +74,8 @@ export default{
     background-image: url('/assets/jumbo1.png');
     background-size: cover;
     height: 800px;
+
+    
 
 
 
