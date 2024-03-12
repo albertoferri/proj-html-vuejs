@@ -40,7 +40,7 @@ export default {
 
 <div class="row row-cols-3 justify-content-center py-5 ">
     
-    <div class="event col-4 d-flex flex-column text-light bg-black gap-3" v-for="(item, index) in comp" :key="index">
+    <div class="event col-4 d-flex flex-column text-light bg-black gap-3 rounded-3" v-for="(item, index) in comp" :key="index">
         <img class="img-fluid" :src="item.src" alt="Image">
         <h4 class="text-uppercase m-0">{{ item.titolo }}</h4>
         <span><i class="fa-solid fa-calendar-days"></i> {{ item.data }}</span>
@@ -67,6 +67,15 @@ export default {
 @use '../styles/mixin.scss' as *;
 
 .event {
+    border: 2px solid transparent;
+
+    &:hover{
+        border-color: $thatOrange;
+        transition: .3s linear;
+        cursor: pointer;
+    }
+    
+
   span {
     color: $thatOrange;
   }

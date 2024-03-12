@@ -53,17 +53,31 @@ export default{
             color: $thatOrange;
         }
     }
-    
-    .social-icon{
-        width: 22px;
+
+    .card{
+        border: 2px solid transparent;
 
         &:hover{
-            color: $thatOrange;
+            border-color: $thatOrange;
+        }
+
+        img:hover{
             cursor: pointer;
         }
 
-        
+
+
+
+        .social-icon{
+            width: 22px;
+    
+            &:hover{
+                color: $thatOrange;
+                cursor: pointer;
+            }   
+        }
     }
+    
 
 }
 
