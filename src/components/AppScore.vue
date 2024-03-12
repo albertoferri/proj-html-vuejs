@@ -3,10 +3,10 @@ export default {
   data() {
     return {
       items: [
-        { immagine: '../../public/assets/man.svg', num: '163', titolo: 'Concert' },
-        { immagine: '../../public/assets/rocket.svg', num: '145', titolo: 'happy clients' },
-        { immagine: '../../public/assets/trophy.svg', num: '72', titolo: 'music awards' },
-        { immagine: '../../public/assets/music.svg', num: '182', titolo: 'total songs' },
+        { immagine: '/assets/man.svg', num: '163', titolo: 'Concert' },
+        { immagine: '/assets/rocket.svg', num: '145', titolo: 'happy clients' },
+        { immagine: '/assets/trophy.svg', num: '72', titolo: 'music awards' },
+        { immagine: '/assets/music.svg', num: '182', titolo: 'total songs' },
       ]
     }
   }
@@ -35,7 +35,7 @@ export default {
 
 
 .container-fluid{
-  background-image: url('/public/assets/counter_parallax.jpg');
+  background-image: url('/assets/counter_parallax.jpg');
   background-size: cover;
 }
 

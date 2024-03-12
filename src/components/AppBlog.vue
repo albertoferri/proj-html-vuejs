@@ -1,28 +1,27 @@
 <script>
 import {store} from '../store.js';
+
 export default{
-
     
-data(){
-    return{
-        store,
-        comp: store.blog,
+    data(){
+        return{
+            store,
+            comp: store.blog,
 
-        image : [
-            "../../public/assets/instagram_img1.jpg",
-            "../../public/assets/instagram_img2.jpg",
-            "../../public/assets/instagram_img3.jpg",
-            "../../public/assets/instagram_img4.jpg",
-            "../../public/assets/instagram_img5.jpg",
-            "../../public/assets/instagram_img6.jpg",
-            "../../public/assets/instagram_img7.jpg",
-            "../../public/assets/instagram_img8.jpg",
-            "../../public/assets/instagram_img9.jpg",
-            "../../public/assets/instagram_img10.jpg"
-        ],
+            image : [
+                "/assets/instagram_img1.jpg",
+                "/assets/instagram_img2.jpg",
+                "/assets/instagram_img3.jpg",
+                "/assets/instagram_img4.jpg",
+                "/assets/instagram_img5.jpg",
+                "/assets/instagram_img6.jpg",
+                "/assets/instagram_img7.jpg",
+                "/assets/instagram_img8.jpg",
+                "/assets/instagram_img9.jpg",
+                "/assets/instagram_img10.jpg"
+            ],
+        }
     }
-}
-
 }
 
 </script>
@@ -62,7 +61,5 @@ data(){
         color: $thatOrange;
     }
 }
-
-
 
 </style>

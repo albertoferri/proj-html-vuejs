@@ -50,7 +50,7 @@ export default{
 
 .container-fluid{
 
-    background-image: url('/public/assets/jumbo1.png');
+    background-image: url('/assets/jumbo1.png');
     background-size: cover;
     height: 800px;
 
