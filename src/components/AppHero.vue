@@ -12,7 +12,7 @@ export default{
 
 <div class="">
     <div id="jumbo" class="container-fluid pb-5">
-        <img class="img-fluid" src="/public/assets/cms_parallax.jpg" alt="hero img">
+        <img class="img-fluid" src="/assets/cms_parallax.jpg" alt="hero img">
         <div id="info">
             <h5 class="text-uppercase">instrumental rock</h5>
             <h1 class="display-3 text-uppercase text-light fw-bold">Album out now</h1>

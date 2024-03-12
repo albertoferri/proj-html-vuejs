@@ -5,17 +5,17 @@ export const store = reactive({
     // questo oggetto è come se fosse un data() condiviso da tutti i componenti della mia app
     jumbo: [
         {
-            src: "/public/assets/image (10).svg",
+            src: "/assets/image (10).svg",
             titolo: "original ideas",
             text: "Contrary Popalar Belief, Lorern Ipsum Not Simply Ipsum Random Text."
         },
         {
-            src: "/public/assets/image (11).svg",
+            src: "/assets/image (11).svg",
             titolo: "music studio",
             text: "Contrary Popalar Belief, Lorern Ipsum Not Simply Ipsum Random Text."
         },
         {
-            src: "/public/assets/image (12).svg",
+            src: "/assets/image (12).svg",
             titolo: "acoustic covers",
             text: "Contrary Popalar Belief, Lorern Ipsum Not Simply Ipsum Random Text."
         }
@@ -23,7 +23,7 @@ export const store = reactive({
 
     song : [
         {
-            srcImmagine: "/public/assets/gallery1.jpg",
+            srcImmagine: "/assets/gallery1.jpg",
             titolo: "a roll and bang the floor",
             social: 
                 [
@@ -35,7 +35,7 @@ export const store = reactive({
                 ]
         },
         {
-            srcImmagine: "/public/assets/gallery2.jpg",
+            srcImmagine: "/assets/gallery2.jpg",
             titolo: "your melody to our music",
             social: 
                 [
@@ -47,7 +47,7 @@ export const store = reactive({
                 ]
         },
         {
-            srcImmagine: "/public/assets/gallery3.jpg",
+            srcImmagine: "/assets/gallery3.jpg",
             titolo: "touching heaven on frequency",
             social: 
                 [
@@ -59,7 +59,7 @@ export const store = reactive({
                 ]
         },
         {
-            srcImmagine: "/public/assets/gallery4.jpg",
+            srcImmagine: "/assets/gallery4.jpg",
             titolo: "music makes stronge beats",
             social: 
                 [
@@ -71,7 +71,7 @@ export const store = reactive({
                 ]
         },
         {
-            srcImmagine: "/public/assets/gallery5.jpg",
+            srcImmagine: "/assets/gallery5.jpg",
             titolo: "sound is the spark of time",
             social: 
                 [
@@ -83,7 +83,7 @@ export const store = reactive({
                 ]
         },
         {
-            srcImmagine: "/public/assets/gallery6.jpg",
+            srcImmagine: "/assets/gallery6.jpg",
             titolo: "make your night groovy",
             social: 
                 [
@@ -98,19 +98,19 @@ export const store = reactive({
 
     blog : [
         {
-            src: "/public/assets/hip_hop_wired_to_dance_make.jpg",
+            src: "/assets/hip_hop_wired_to_dance_make.jpg",
             titolo: "hip hop wired to dance make",
             data: "06 November 2021",
             descrizione: "Driving Short Distances Music Is A Music Genre That Includes Tradittonal Folk Music And The Contemporary Genre That Evolved From The Former"
         },
         {
-            src: "/public/assets/music_business-worldwide.jpg",
+            src: "/assets/music_business-worldwide.jpg",
             titolo: "music business worldwide",
             data: "27 May 2022",
             descrizione: "Accelerate Work And Drive Productivity The Beatles' Experimentation And Creative Freedom Led Other Bands To Experiment In Various Ways As Well."
         },
         {
-            src: "/public/assets/giveaways_rock.jpg",
+            src: "/assets/giveaways_rock.jpg",
             titolo: "giveaways rock to all",
             data: "07 May 2022",
             descrizione: "Signs Your Car Battery Has To Be Replaced When The Dashboard Lights Start Flashing, This Is A Sign The Battery Is Dying. Several Issues Arise And"

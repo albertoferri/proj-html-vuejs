@@ -10,7 +10,7 @@ export default{
 <template>
 
 <nav class="d-flex justify-content-between py-3">
-  <img class="img-fluid" src="../../public/assets/Logo.png" alt="">
+  <img class="img-fluid" src="/assets/Logo.png" alt="">
 
 
   <ul class="d-flex align-items-center gap-4 text-uppercase text-light ">

@@ -1,17 +1,28 @@
 <script>
+export default {
+  data() {
+    return {
+      isPlaying: false,
+    };
+  },
+  methods: {
+    playVideo() {
+      this.isPlaying = true;
+    },
+  },
+};
+
 </script>
 
 <template>
-
-<div class="container-fluid px-0">
-
-    <img class="w-100" src="/assets/Video-1536x541.jpg" alt="">
-    <div id="text" class="d-flex flex-column align-items-center gap-2">
-        <i class="fa-regular fa-circle-play"></i>
+    <div class="container-fluid px-0">
+      <img v-if="!isPlaying" class="w-100" src="/assets/Video-1536x541.jpg" alt="">
+      <iframe v-else id="myVideo" class="w-100 h-100" src="https://www.youtube.com/embed/pYnLO7MVKno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div v-if="!isPlaying" id="text" class="d-flex flex-column align-items-center gap-2">
+        <i id="play-icon" class="fa-regular fa-circle-play" @click="playVideo"></i>
         <h2 class="text-uppercase text-light fw-bold display-3">new music video</h2>
+      </div>
     </div>
-</div>
-    
 </template>
 
 <style scoped lang="scss">
@@ -20,6 +31,7 @@
 
 .container-fluid{
     position: relative;
+    height: 690px;
 
     #text{
 
