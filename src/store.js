@@ -91,7 +91,7 @@ export const store = reactive({
                     '<i class="fa-brands fa-youtube"></i>', 
                     '<i class="fa-solid fa-music"></i>', 
                     '<i class="fa-brands fa-soundcloud"></i>', 
-                    '<i class="fa-solid fa-compass"></i>'
+                    '<i class="fa-brands fa-safari"></i>'
                 ]
         }
     ],

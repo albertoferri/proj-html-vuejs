@@ -13,12 +13,12 @@ export default{
   <img class="img-fluid" src="/assets/Logo.png" alt="">
 
 
-  <ul class="d-flex align-items-center gap-4 text-uppercase text-light ">
+  <ul class="d-flex align-items-center gap-4 text-uppercase text-light">
     <li>home</li>
     <li>blog</li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">events</a>
-      <ul class="dropdown-menu dropdown-menu-dark rounded-0 ">
+      <ul class="list dropdown-menu dropdown-menu-dark rounded-0 mt-3">
         <li><a class="dropdown-item" href="#">choral music</a></li>
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item" href="#">concert brand</a></li>
@@ -35,7 +35,7 @@ export default{
     <li>contact us</li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">shop</a>
-      <ul class="dropdown-menu dropdown-menu-dark rounded-0">
+      <ul class="list dropdown-menu dropdown-menu-dark rounded-0 mt-3">
         <li><a class="dropdown-item" href="#">vynil</a></li>
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item" href="#">cd</a></li>
@@ -54,20 +54,22 @@ export default{
 <style scoped lang="scss">
 @use '../styles/variables' as *;
 
-li img{
-  filter: invert(1);
+.list{
+  background-color: #212529;
 }
-
 
 li{
   position: relative;
-
   font-weight: 500;
-
+  
   &:hover,
   .dropdown-menu a:hover{
     color: $thatOrange;
     cursor: pointer;
+  }
+
+  img{
+    filter: invert(1);
   }
 
   img:hover{

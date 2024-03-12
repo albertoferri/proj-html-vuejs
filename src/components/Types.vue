@@ -18,7 +18,7 @@ export default{
 
 <template>
 
-    <ul class="row justify-content-center gap-4">
+    <ul class="row justify-content-around gap-4">
         <li id="item" class="col-4 bg-dark px-2 py-5 d-flex flex-column justify-content-between align-items-center " v-for="(item, index) in comp" :key="index">
             <img class="img-fluid" :src="item.src" alt="Image">
             <div id="info" class="text-light">
@@ -47,6 +47,7 @@ export default{
 
         img{
             width: 100px;
+            filter: invert(1);
         }
     }
 }
