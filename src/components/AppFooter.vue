@@ -23,6 +23,8 @@ data(){
 
 <footer>
 
+  <div class="container">
+
     <div class="row row-cols-4  py-5">
     
       <!-- booking info -->
@@ -60,16 +62,21 @@ data(){
       </form>
     
     </div>
+  </div>
 
-    <hr class="text-light">
-    
+  <hr class="text-light">
+  
+  <!-- footer bottom -->
+  <div class="container">
     <div class="row justify-content-center">
-
+  
         <div class="col-6">
             <p class="text-center text-light"><i class="fa-regular fa-copyright"></i> 2024 All Rights Reserved, Developed By Alberto Ferri</p>
         </div>
-
+  
     </div>
+  </div>
+
 
 </footer>
 

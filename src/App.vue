@@ -33,7 +33,7 @@ export default{
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-lg container-sm-fluid">
 
     <AppNav></AppNav>
 

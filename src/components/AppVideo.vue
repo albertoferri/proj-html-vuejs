@@ -31,7 +31,7 @@ export default {
 
 .container-fluid{
     position: relative;
-    height: 690px;
+    height: 590px;
 
     #text{
 

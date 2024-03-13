@@ -37,16 +37,22 @@ export default {
 </script>
 
 <template>
+<div class="container">
+  <div class="row">
+    <h5 class="text-center fw-bold text-uppercase">music blog</h5>
+    <h2 class="text-center display-2 fw-bold text-uppercase text-light">best music blog</h2>
+  </div>
 
-<div class="row row-cols-3 justify-content-center py-5 ">
-    
-    <div class="event col-4 d-flex flex-column text-light bg-black gap-3 rounded-3" v-for="(item, index) in comp" :key="index">
-        <img class="img-fluid" :src="item.src" alt="Image">
-        <h4 class="text-uppercase m-0">{{ item.titolo }}</h4>
-        <span><i class="fa-solid fa-calendar-days"></i> {{ item.data }}</span>
-        <p>{{ item.descrizione }}</p>
-    </div>
-
+  <div class="row row-cols-3 justify-content-center py-5 ">
+      
+      <div class="event col-4 d-flex flex-column text-light bg-black gap-3 rounded-3" v-for="(item, index) in comp" :key="index">
+          <img class="img-fluid" :src="item.src" alt="Image">
+          <h4 class="text-uppercase m-0">{{ item.titolo }}</h4>
+          <span><i class="fa-solid fa-calendar-days"></i> {{ item.data }}</span>
+          <p>{{ item.descrizione }}</p>
+      </div>
+  
+  </div>
 </div>
 
 <div class="py-5 container-fluid">
@@ -65,6 +71,13 @@ export default {
 <style scoped lang="scss">
 @use '../styles/variables' as *;
 @use '../styles/mixin.scss' as *;
+
+
+.row{
+  h5{
+    color: $thatOrange
+  }
+}
 
 .event {
     border: 2px solid transparent;

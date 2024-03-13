@@ -75,9 +75,9 @@ export default{
     background-size: cover;
     height: 800px;
 
-    
-
-
+    #audio-box i, input{
+        cursor: pointer;
+    }
 
     .title-box{
         position: relative;
@@ -96,9 +96,16 @@ export default{
 
 .types-container {
   position: absolute;
-  bottom: -100px;
+  bottom: -120px;
   left: 50%;
   transform: translate(-50%);
+  
+  @media (max-width: 1200px) {
+    position: static;
+    transform: none;
+    left: auto;
+    bottom: 0;
+  }
 }
 
 

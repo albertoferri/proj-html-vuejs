@@ -36,7 +36,7 @@ export default {
 
 .container-fluid{
   background-image: url('/assets/counter_parallax.jpg');
-  background-size: cover;
+  background-position: center;
 }
 
 .col{
