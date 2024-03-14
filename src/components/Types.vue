@@ -19,7 +19,7 @@ export default{
 <template>
 
     <ul class="row justify-content-around justify-content-md-between gap-0 gap-xl-5">
-        <li id="item" class="col bg-dark px-2 py-5 d-flex flex-column justify-content-between align-items-center " v-for="(item, index) in comp" :key="index">
+        <li id="item" class="col bg-dark px-2 py-3 d-flex flex-column justify-content-between align-items-center " v-for="(item, index) in comp" :key="index">
             <div class="img-wrapper p-4">
                 <img class="img-fluid" :src="item.src" alt="Image">
             </div>
@@ -42,8 +42,8 @@ export default{
   
 
   #item {
-    min-width: 350px;
-    height: 380px;
+    min-width: 200px;
+    height: 300px;
     text-align: center;
     
     @media (max-width: 1100px) {

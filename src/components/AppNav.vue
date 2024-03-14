@@ -68,6 +68,7 @@ export default{
 
 nav{
 
+  height: 63px;
 
 
   .list{

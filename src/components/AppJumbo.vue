@@ -96,7 +96,7 @@ export default{
 
 .types-container {
   position: absolute;
-  bottom: -120px;
+  bottom: -80px;
   left: 50%;
   transform: translate(-50%);
   
